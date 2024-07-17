@@ -1,6 +1,6 @@
-const subjects = ["You", "Your dreams", "Your hard work"];
+const subjects = ["mahii", "software engineer", "lives in present"];
 const verbs = ["can", "will", "must"];
-const objects = ["achieve greatness", "be rewarded", "make a difference"];
+const objects = ["be livily", "be rewarded", "make a difference"];
 
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
