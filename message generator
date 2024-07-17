@@ -1,0 +1,16 @@
+const subjects = ["You", "Your dreams", "Your hard work"];
+const verbs = ["can", "will", "must"];
+const objects = ["achieve greatness", "be rewarded", "make a difference"];
+
+function getRandomElement(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function generateMessage() {
+    const subject = getRandomElement(subjects);
+    const verb = getRandomElement(verbs);
+    const object = getRandomElement(objects);
+    return `${subject} ${verb} ${object}.`;
+}
+
+console.log(generateMessage());
